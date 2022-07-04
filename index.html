@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Rock Paper Scissors!</title>
+    <script src="app.js" defer></script>
   </head>
   <body>
     <h1>Rock Paper Scissors!</h1>
-    <script src="script.js"></script>
-    <script>console.log(game());</script>
+    <div class="scores">
+      <div id="pScore">0</div>
+      <div id="cScore">0</div>
+    </div>
+    <div id="results">Results</div>
+    <button id="rock" class="pChoice">Rock</button>
+    <button id="paper" class="pChoice">Paper</button>
+    <button id="scissors" class="pChoice">Scissors</button>
   </body>
 </html>
